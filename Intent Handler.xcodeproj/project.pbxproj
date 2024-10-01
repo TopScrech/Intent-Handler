@@ -6,17 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F3F5753D2CAC29A400B0809A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F575382CAC29A400B0809A /* Assets.xcassets */; };
+		F3F5753E2CAC29A400B0809A /* Content View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F575392CAC29A400B0809A /* Content View.swift */; };
+		F3F5753F2CAC29A400B0809A /* Intent Handler App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F5753A2CAC29A400B0809A /* Intent Handler App.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F3F575252CAC298500B0809A /* Intent Handler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intent Handler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F575382CAC29A400B0809A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F575392CAC29A400B0809A /* Content View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content View.swift"; sourceTree = "<group>"; };
+		F3F5753A2CAC29A400B0809A /* Intent Handler App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Intent Handler App.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F3F575272CAC298500B0809A /* Intent Handler */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Intent Handler";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F3F575222CAC298500B0809A /* Frameworks */ = {
@@ -32,7 +33,7 @@
 		F3F5751C2CAC298500B0809A = {
 			isa = PBXGroup;
 			children = (
-				F3F575272CAC298500B0809A /* Intent Handler */,
+				F3F5753B2CAC29A400B0809A /* Intent Handler */,
 				F3F575262CAC298500B0809A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +44,16 @@
 				F3F575252CAC298500B0809A /* Intent Handler.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F5753B2CAC29A400B0809A /* Intent Handler */ = {
+			isa = PBXGroup;
+			children = (
+				F3F5753A2CAC29A400B0809A /* Intent Handler App.swift */,
+				F3F575382CAC29A400B0809A /* Assets.xcassets */,
+				F3F575392CAC29A400B0809A /* Content View.swift */,
+			);
+			path = "Intent Handler";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +70,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F3F575272CAC298500B0809A /* Intent Handler */,
 			);
 			name = "Intent Handler";
 			packageProductDependencies = (
@@ -109,6 +117,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F5753D2CAC29A400B0809A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F5753E2CAC29A400B0809A /* Content View.swift in Sources */,
+				F3F5753F2CAC29A400B0809A /* Intent Handler App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +262,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Intent Handler/Preview Content\"";
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +290,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Intent Handler/Preview Content\"";
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

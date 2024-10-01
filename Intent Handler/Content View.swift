@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Intent Handler
-//
-//  Created by Sergei Saliukov on 1/10/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
