@@ -13,6 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F37535D32CAC2A880019CC05 /* Intent-Handler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Intent-Handler-Info.plist"; sourceTree = SOURCE_ROOT; };
 		F3F575252CAC298500B0809A /* Intent Handler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intent Handler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F575382CAC29A400B0809A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3F575392CAC29A400B0809A /* Content View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content View.swift"; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		F3F5753B2CAC29A400B0809A /* Intent Handler */ = {
 			isa = PBXGroup;
 			children = (
+				F37535D32CAC2A880019CC05 /* Intent-Handler-Info.plist */,
 				F3F5753A2CAC29A400B0809A /* Intent Handler App.swift */,
 				F3F575382CAC29A400B0809A /* Assets.xcassets */,
 				F3F575392CAC29A400B0809A /* Content View.swift */,
@@ -265,6 +267,7 @@
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Intent-Handler-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,6 +296,7 @@
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Intent-Handler-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
